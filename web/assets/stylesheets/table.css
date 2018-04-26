@@ -1,0 +1,137 @@
+.father {
+    width: 100%;
+    height: 200px;
+    float: left;
+    margin-top: 5%;
+    margin-left: 5px;
+}
+
+.son {
+    width: 100%;
+    height: 33%;
+    float: left;
+    border-left: 1px solid gainsboro;
+}
+
+.first-son {
+    width: 33%;
+    height: 100%;
+    float: left;
+    border: 1px solid gainsboro;
+    background-color: white;
+}
+
+.second-son {
+    width: 66%;
+    height: 100%;
+    float: left;
+    border: 1px solid gainsboro;
+    text-indent: 20px;
+    background-color: white;
+}
+
+.first-son {
+    text-align: center;
+}
+
+p {
+    padding-top: 21px;
+    font-size: 18px;
+}
+
+h4 {
+    padding-top: 10px;
+}
+
+button {
+    margin-top: 15px;
+    width: 50%;
+}
+
+.first-son-unique {
+    background-color: #58B19F;
+    width: 33%;
+    height: 100%;
+    float: left;
+    border: 1px solid gainsboro;
+    text-align: center;
+}
+
+.push-down {
+    padding-top: 0%;
+}
+
+.push-down-h {
+    padding-top: 2%;
+}
+
+#example_info {
+    margin-left: 1%;
+}
+
+@media screen and (max-width: 1300px) {
+    .push-down-h {
+        padding-top: 5%;
+    }
+    p {
+        padding-top: 21px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .father {
+        width: 100%;
+        height: 200px;
+        float: left;
+        margin-top: 20px;
+        margin-left: 1.5%;
+    }
+    .first-son-unique {
+        background-color: #58B19F;
+        width: 32%;
+        height: 100%;
+        float: left;
+        border: 1px solid gainsboro;
+        text-align: center;
+    }
+    .first-son {
+        width: 32%;
+        height: 100%;
+        float: left;
+        border: 1px solid gainsboro;
+    }
+    .second-son {
+        width: 64%;
+        height: 100%;
+        float: left;
+        text-indent: 5px;
+        border: 1px solid gainsboro;
+    }
+    p {
+        padding-top: 9px;
+    }
+    h4 {
+        padding-top: 0px;
+    }
+    button {
+        margin-top: 18%;
+        width: 80%;
+    }
+    .push-down {
+        padding-top: 5.5%;
+    }
+    .push-down-h {
+        padding-top: 8.5%;
+    }
+    #example_info {
+        margin-left: 1%;
+    }
+    .special {
+        padding-top: 3px;
+    }
+    p {
+        padding-top: 13px;
+        font-size: 13px;
+    }
+}

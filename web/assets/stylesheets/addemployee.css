@@ -1,0 +1,27 @@
+#containner {
+    height: 800px;
+}
+
+@media only screen and (max-width: 1024px) {
+    #containner {
+        height: 1200px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #containner {
+        height: 1150px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #containner {
+        height: 1200px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #containner {
+        height: 1200px;
+    }
+}

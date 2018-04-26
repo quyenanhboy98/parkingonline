@@ -1,0 +1,211 @@
+#container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./../images/parking.jpg');
+    position: relative;
+}
+
+#data-box {
+    margin-left: 3%;
+    width: 94%;
+    height: 75%;
+    position: absolute;
+    margin-top: 2%;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #48dbfb;
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    font-family: monospace;
+    padding-top: 1.5%;
+    float: left;
+}
+
+.body-box {
+    width: 100%;
+    height: 50%;
+    float: left;
+    background-color: white;
+}
+
+.button-area {
+    margin-top: 1%;
+    width: 100%;
+    height: 5%;
+    float: left;
+    margin-left: 5%;
+    background-color: red;
+}
+
+.ClickMe {
+    width: 100px;
+    height: 35px;
+}
+
+.data-table {
+    width: 95%;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.table {
+    margin-bottom: 2%;
+}
+
+@media only screen and (max-width: 1200px) {
+    header {
+        font-size: 2.5rem;
+        padding-top: 3%;
+    }
+    #container {
+        width: 100vw;
+        height: 55vh;
+        background-image: url('./../images/parking.jpg');
+    }
+    .body-box {
+        width: 100%;
+        height: 75%;
+        float: left;
+        background-color: white;
+    }
+    .unique {
+        width: 100%;
+    }
+    .my-checkbox {
+        display: block;
+        width: 36%;
+        height: 34px;
+        font-size: 14px;
+        color: #555;
+        background-color: #FFF;
+        border: 1px solid #ccc;
+        box-shadow: inset 0 1px rgba(0, 0, 0, 0.075);
+    }
+    .table {
+        overflow-x: auto;
+    }
+    .ClickMe {
+        width: 80px;
+        height: 30px;
+        margin-top: 2%
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    header {
+        font-size: 2.5rem;
+        padding-top: 6%;
+    }
+    #container {
+        width: 100vw;
+        height: 55vh;
+        background-image: url('./../images/parking.jpg');
+    }
+    .body-box {
+        width: 100%;
+        height: 75%;
+        float: left;
+        background-color: white;
+    }
+    .unique {
+        width: 100%;
+    }
+    .my-checkbox {
+        display: block;
+        width: 36%;
+        height: 34px;
+        font-size: 14px;
+        color: #555;
+        background-color: #FFF;
+        border: 1px solid #ccc;
+        box-shadow: inset 0 1px rgba(0, 0, 0, 0.075);
+    }
+    .table {
+        overflow-x: auto;
+    }
+    .ClickMe {
+        width: 80px;
+        height: 30px;
+        margin-top: 2%
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header {
+        font-size: 2.5rem;
+        padding-top: 8%;
+    }
+    #container {
+        width: 100vw;
+        height: 130vmax;
+        background-image: url('./../images/parking.jpg');
+    }
+    .body-box {
+        width: 100%;
+        height: 75%;
+        float: left;
+        background-color: white;
+    }
+    #data-box {
+        margin-top: 12%;
+    }
+    .unique {
+        width: 100%;
+    }
+    body {
+        font-size: 12px;
+    }
+    .my-checkbox {
+        display: block;
+        width: 36%;
+        height: 34px;
+        font-size: 14px;
+        color: #555;
+        background-color: #FFF;
+        border: 1px solid #ccc;
+        box-shadow: inset 0 1px rgba(0, 0, 0, 0.075);
+    }
+    .table {
+        overflow-x: auto;
+        height: 120vmax;
+    }
+    .ClickMe {
+        width: 80px;
+        height: 30px;
+        margin-top: 2%
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #container {
+        width: 100vw;
+        height: 150vmax;
+        background-image: url('./../images/parking.jpg');
+        padding-top: 50px;
+    }
+    header {
+        padding-top: 9vmin;
+        margin-top: 5%;
+    }
+    .body-box {
+        width: 100%;
+        height: 80%;
+        float: left;
+        background-color: white;
+    }
+    #data-box {
+        margin-left: 15%;
+        width: 70%;
+        height: 75%;
+        position: absolute;
+        margin-top: 1%;
+        padding-top: 12%;
+    }
+    .table {
+        overflow-x: auto;
+    }
+}

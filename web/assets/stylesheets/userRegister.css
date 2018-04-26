@@ -1,0 +1,289 @@
+body {
+    overflow: hidden;
+}
+
+#containner {
+    width: 100%;
+    height: 100vh;
+    background-color: #33b5e5;
+    overflow: hidden;
+}
+
+#header {
+    width: 100%;
+    height: 15%;
+    background-color: #33b5e5;
+    text-align: center;
+    padding-top: 15px;
+    color: aliceblue;
+    font-family: monospace;
+}
+
+#login-area {
+    width: 100%;
+    height: 85%;
+    background-image: url("../images/parking.jpg");
+    padding-left: 15%;
+}
+
+.login-box {
+    width: 80%;
+    background-color: white;
+    height: 400px;
+    opacity: 0;
+}
+
+.login-header {
+    width: 100%;
+    height: 20%;
+    background-color: #33b5e5;
+    text-align: center;
+    padding-top: 1px;
+    font-family: monospace;
+    color: aliceblue;
+}
+
+.login-body {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    font-family: monospace;
+    color: #33b5e5;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom: 1px solid black;
+}
+
+.login-foot {
+    width: 100%;
+    height: 17%;
+    padding-top: 10px;
+    padding-left: 5px;
+    background-color: gainsboro;
+    float: left;
+}
+
+.button-first-login {
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+.first-button {
+    float: right;
+}
+
+.button-login {
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+.btn-login {
+    height: 45px;
+    width: 130px;
+}
+
+@media only screen and (max-width: 1024px) {
+    #header {
+        height: 12vmax;
+    }
+    #login-area {
+        padding-left: 10%;
+        height: 100%;
+    }
+    #containner {
+        height: 100vh;
+        overflow: auto;
+    }
+    .login-body {
+        height: 110vmin;
+    }
+    .login-box {
+        width: 90%;
+    }
+    .btn-login {
+        margin-left: 0px;
+    }
+    .button-first-login {
+        width: 75%;
+        height: 100%;
+        float: left;
+        text-align: center;
+    }
+    .button-login {
+        width: 25%;
+        height: 100%;
+        float: left;
+        text-align: center;
+    }
+    .btn-login {
+        height: 35px;
+        width: 100px;
+    }
+    h1 {
+        font-size: 40px;
+        padding-top: 0;
+    }
+    .ipad-1 {
+        width: 1024px;
+        height: 465px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    #header {
+        height: 17%;
+    }
+    #login-area {
+        padding-left: 10%;
+        height: 100%;
+    }
+    #containner {
+        height: 100vh;
+        overflow: auto;
+    }
+    .login-body {
+        height: 110vmax;
+    }
+    .login-box {
+        width: 90%;
+    }
+    .btn-login {
+        margin-left: 0px;
+    }
+    .button-first-login {
+        width: 49%;
+        height: 100%;
+        float: left;
+        text-align: center;
+        padding-right: 10%;
+    }
+    .button-login {
+        width: 49%;
+        height: 100%;
+        float: left;
+        text-align: center;
+    }
+    .btn-login {
+        height: 35px;
+        width: 100px;
+    }
+    h1 {
+        font-size: 40px;
+        padding-top: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #header {
+        height: 15vmax;
+    }
+    #login-area {
+        padding-left: 10%;
+        height: 100%;
+    }
+    .login-header {
+        height: 17vmax;
+        padding-top: 5vmax;
+    }
+    #containner {
+        height: 100vh;
+        overflow: auto;
+    }
+    .login-body {
+        height: 165vmax;
+    }
+    .login-box {
+        width: 90%;
+    }
+    .btn-login {
+        margin-left: 0px;
+    }
+    .button-first-login {
+        width: 49%;
+        height: 100%;
+        float: left;
+        text-align: center;
+        padding-right: 0;
+    }
+    .button-login {
+        width: 49%;
+        height: 100%;
+        float: left;
+        text-align: center;
+    }
+    .btn-login {
+        height: 35px;
+        width: 100px;
+    }
+    h1 {
+        font-size: 10vmin;
+        margin-top: 1vmin;
+    }
+    .titte {
+        font-size: 7vmax;
+        margin-top: 5vmax;
+        margin-bottom: 1px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #header {
+        height: 15vmax;
+        padding-top: 0;
+    }
+    .login-header {
+        height: 17vmax;
+        padding-top: 1vmin;
+    }
+    #containner {
+        height: 100vh;
+        overflow: auto;
+    }
+    .login-body {
+        height: 115vmax;
+    }
+    #login-area {
+        padding-left: 2%;
+        height: 100%;
+    }
+    .login-box {
+        width: 97%;
+    }
+    .btn-login {
+        margin-left: 10px;
+    }
+    .button-first-login {
+        width: 49%;
+        height: 100%;
+        float: left;
+        text-align: center;
+        padding-right: 0;
+    }
+    .button-login {
+        width: 49%;
+        height: 100%;
+        float: left;
+        text-align: center;
+    }
+    h1 {
+        font-size: 7.5vmax;
+        margin-top: 5vmax;
+    }
+    .titte {
+        font-size: 7.5vmax;
+        margin-bottom: 0;
+    }
+}
+
+#text-unique {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+}

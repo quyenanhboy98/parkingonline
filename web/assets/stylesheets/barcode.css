@@ -1,0 +1,215 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    height: 50vmax;
+    background-image: url('./../images/parking.jpg');
+    overflow: hidden;
+}
+
+.box-header {
+    width: 100%;
+    height: 60px;
+    background-color: #33b5e5;
+    font-family: monospace;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-bottom: 90px;
+    padding-top: 1px;
+}
+
+.box-area {
+    /* border: 2px solid black; */
+    margin-top: 10%;
+    border-radius: 20px;
+    height: 40%;
+    width: 30%;
+    margin-left: 35%;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.box-body {
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-bottom: 10px;
+    padding-top: 10%;
+    height: 12vmax;
+}
+
+.box-body>img {
+    height: 115px;
+    width: 90%;
+    border: 2px solid black;
+    margin-top: -15px;
+}
+
+@media only screen and (max-width: 1300px) {
+    h1 {
+        font-size: 27px;
+        padding-top: 2.5%;
+    }
+    .box-body {
+        background-color: white;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding-bottom: 10px;
+        padding-top: 10%;
+        height: 14vmax;
+        width: 40vmax;
+    }
+    .box-header {
+        width: 40vmax;
+        height: 60px;
+        background-color: #33b5e5;
+        font-family: monospace;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        padding-bottom: 90px;
+        padding-top: 1px;
+    }
+
+    .box-area {
+        margin-left: 30%;
+    }
+}
+
+@media all and (max-width: 660px) {
+    .box-area {
+        /* border: 2px solid black; */
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 170px;
+        height: 300px;
+    }
+    h1 {
+        font-size: 35px;
+        padding-top: 15px;
+    }
+    .box-body {
+        width: 100%;
+        height: 60%;
+        margin-left: 0px;
+        padding-top: 35px;
+    }
+    .box-body>img {
+        height: 130px;
+        width: 85%;
+        /* border: 2px solid black; */
+    }
+    .container {
+        height: 30vmax;
+        overflow: auto;
+    }
+    .box-header {
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .box-body {
+        background-color: white;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding-bottom: 10px;
+    }
+    .box-header {
+        width: 40vmax;
+        margin-left: 0px;
+    }
+    .container {
+        height: 100vmax;
+        overflow: auto;
+    }
+    .box-body {
+        width: 40vmax;
+        height: 20vmin;
+        margin-left: 0px;
+        padding-top: 10%;
+    }
+    .box-body>img {
+        height: 130px;
+        width: 85%;
+        /* border: 2px solid black; */
+    }
+    .box-area {
+        /* border: 2px solid black; */
+        margin-left: 20%;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .box-area {
+        /* border: 2px solid black; */
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 12%;
+        height: 300px;
+    }
+    h1 {
+        font-size: 35px;
+        padding-top: 15px;
+    }
+    .box-body {
+        width: 100%;
+        height: 70%;
+        margin-left: 0px;
+        padding-top: 30px;
+        margin-bottom: 10px;
+    }
+    .box-body>img {
+        height: 120px;
+        width: 85%;
+        border: 2px solid black;
+    }
+    .container {
+        height: 100vh;
+        overflow: auto;
+    }
+    .box-header {
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .box-area {
+        /* border: 2px solid black; */
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 30%;
+        height: 300px;
+    }
+    h1 {
+        font-size: 35px;
+        padding-top: 15px;
+    }
+    .box-body {
+        width: 100%;
+        height: 60%;
+        margin-left: 0px;
+        padding-top: 30px;
+    }
+    .box-body>img {
+        height: 130px;
+        width: 85%;
+        border: 2px solid black;
+    }
+    .container {
+        height: 100vh;
+        overflow: auto;
+    }
+    .box-header {
+        width: 100%;
+        margin-left: 0px;
+    }
+}

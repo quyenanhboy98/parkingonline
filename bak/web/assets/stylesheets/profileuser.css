@@ -1,0 +1,299 @@
+.header-right {
+    padding-top: 10px;
+}
+
+#container {
+    background-image: url('./../images/parking.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.box-area {
+    position: absolute;
+    margin-top: 5%;
+    height: 65%;
+    width: 85%;
+    background-color: white;
+    font-size: 15px;
+    color: #48dbfb;
+    margin-left: 8%;
+}
+
+.box-header {
+    width: 100%;
+    height: 18%;
+    background-color: #33b5e5;
+    text-align: center;
+    padding-top: 1px;
+    font-family: monospace;
+    color: aliceblue;
+    float: left;
+}
+
+.box-body {
+    /* width: 100%; */
+    height: 65%;
+    background-color: white;
+    font-family: monospace;
+    color: #33b5e5;
+    padding-left: 5px;
+    padding-right: 5px;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.box-footer {
+    width: 100%;
+    height: 22%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    float: left;
+    padding-left: 55%;
+    border-top: 2px solid black;
+    background-color: #dfe6e9;
+}
+
+.btn {
+    width: 170px;
+    height: 60px;
+}
+
+#button-left {
+    width: 55%;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+
+#button-right {
+    float: left;
+}
+
+@media all and (max-width: 1200px) {
+    #container {
+        background-image: url('./../images/parking.jpg');
+        background-repeat: repeat;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+    .box-area {
+        height: 50%;
+    }
+    .box-header {
+        width: 100%;
+        height: 20%;
+        background-color: #33b5e5;
+        text-align: center;
+        padding-top: 1px;
+        font-family: monospace;
+        color: aliceblue;
+        float: left;
+    }
+    .box-footer {
+        width: 100%;
+        height: 35%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        float: left;
+        padding-left: 30%;
+        border-top: 2px solid black;
+        background-color: #dfe6e9;
+    }
+    #button-left {
+        width: 35%;
+        margin: 0px;
+        padding: 0px;
+        float: right;
+    }
+    #button-right {
+        float: right;
+        margin-right: 1%;
+    }
+    .btn {
+        width: 170px;
+        height: 40px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    #container {
+        background-image: url('./../images/parking.jpg');
+        background-repeat: repeat;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+    .box-header {
+        width: 100%;
+        height: 20%;
+    }
+    .box-footer {
+        width: 100%;
+        height: 22%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        float: left;
+        padding-left: 30%;
+        border-top: 2px solid black;
+        background-color: #dfe6e9;
+    }
+    #button-left {
+        width: 35%;
+        margin: 0px;
+        padding: 0px;
+        float: right;
+    }
+    #button-right {
+        float: right;
+        margin-right: 1%;
+    }
+    .btn {
+        width: 150px;
+        height: 40px;
+    }
+}
+
+h1 {
+    font-size: 30px;
+}
+
+@media all and (max-width: 720px) {
+    #container {
+        background-image: url('./../images/parking.jpg');
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 137vh;
+        position: relative;
+        margin-top: 13%;
+    }
+    .box-header {
+        width: 100%;
+        height: 13%;
+        background-color: #33b5e5;
+        text-align: center;
+        padding-top: 1px;
+        font-family: monospace;
+        color: aliceblue;
+        float: left;
+    }
+    .box-footer {
+        width: 100%;
+        height: 22%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        float: left;
+        padding-left: 15%;
+        border-top: 2px solid black;
+        background-color: #dfe6e9;
+    }
+    #button-left {
+        width: 45%;
+        margin: 0px;
+        padding: 0px;
+        float: left
+    }
+    #button-right {
+        float: left;
+    }
+    .btn {
+        width: 150px;
+        height: 40px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    #container {
+        background-image: url('./../images/parking.jpg');
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 300vh;
+        margin-top: 10%;
+        position: relative;
+    }
+    .box-header {
+        width: 100%;
+        height: 13%;
+        background-color: #33b5e5;
+        text-align: center;
+        padding-top: 1px;
+        font-family: monospace;
+        color: aliceblue;
+        float: left;
+    }
+    .box-area {
+        position: absolute;
+        margin-top: 15%;
+        height: 65%;
+        width: 85%;
+        background-color: white;
+        font-size: 15px;
+        color: #48dbfb;
+        margin-left: 8%;
+    }
+    .box-footer {
+        padding-left: 10%;
+        width: 100%;
+        height: 22%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        float: left;
+        border-top: 2px solid black;
+        background-color: #dfe6e9;
+    }
+    .btn {
+        width: 120px;
+        height: 40px;
+    }
+}
+
+@media all and (max-width: 420px) {
+    #container {
+        background-image: url('./../images/parking.jpg');
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 195vh;
+        position: relative;
+        margin-top: 13%;
+    }
+    .box-header {
+        width: 100%;
+        height: 13%;
+        background-color: #33b5e5;
+        text-align: center;
+        padding-top: 1px;
+        font-family: monospace;
+        color: aliceblue;
+        float: left;
+    }
+    .box-area {
+        position: absolute;
+        margin-top: 15%;
+        height: 65%;
+        width: 85%;
+        background-color: white;
+        font-size: 15px;
+        color: #48dbfb;
+        margin-left: 8%;
+    }
+    .btn {
+        width: 107px;
+        height: 40px;
+        margin-left: 7%;
+    }
+    .box-footer {
+        padding-left: 0;
+    }
+    .box-footer {
+        width: 100%;
+        height: 22%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        float: left;
+        padding-left: 2%;
+        border-top: 2px solid black;
+        background-color: #dfe6e9;
+    }
+}

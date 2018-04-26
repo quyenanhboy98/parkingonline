@@ -1,0 +1,65 @@
+#containner {
+    height: 1300px;
+}
+
+.table-responsive {
+    width: 98%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    #containner {
+        height: 2000px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #containner {
+        height: 2400px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #containner {
+        height: 2600px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #containner {
+        height: 2650px;
+    }
+}
+
+/* #containner {
+    height: 175vh;
+}  */
+
+/* #containner {
+    height: 175vh;
+}
+
+@media only screen and (max-width: 800px) {
+    #containner {
+        height: 200vmax;
+    }
+}
+
+@media only screen and (max-width: 608px) {
+    #containner {
+        height: 320vmax;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #containner {
+        height: 150vmax;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    #containner {
+        height: 320vmax;
+    }
+} */

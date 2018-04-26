@@ -1,0 +1,249 @@
+#container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./../images/parking.jpg');
+    position: relative;
+}
+
+.search-header {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#data-box {
+    margin-left: 3%;
+    width: 94%;
+    height: 75%;
+    position: absolute;
+    margin-top: 0%;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #48dbfb;
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    font-family: monospace;
+    padding-top: 1.5%;
+    float: left;
+}
+
+.body-box {
+    width: 100%;
+    height: 115%;
+    float: left;
+    background-color: #ecf0f1;
+}
+
+.button-area {
+    margin-top: 1%;
+    width: 100%;
+    height: 5%;
+    float: left;
+    margin-left: 5%;
+    background-color: red;
+}
+
+.search-button {
+    margin-left: 4%;
+}
+
+.data-table {
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 0%;
+}
+
+.table {
+    margin-bottom: 2%;
+}
+
+.pushdown {
+    margin-top: 3.7%;
+}
+
+.clickMeOne {
+    width: 21%;
+    height: 50%;
+}
+
+.clickMe {
+    width: 21.5%;
+    height: 50%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .pushdown {
+        margin-top: 5.5%;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    header {
+        padding-top: 5%;
+        margin-top: 17%;
+    }
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+    td {
+        width: 100%;
+    }
+    table {
+        height: 5%;
+    }
+    h1 {}
+    .body-box {
+        width: 100%;
+        height: 100%;
+        float: left;
+        background-color: white;
+    }
+    #data-box {
+        margin-left: 15%;
+        width: 70%;
+        height: 80%;
+        position: absolute;
+        margin-top: 5%;
+    }
+    .unique>table, tbody, tr, td {
+        display: inline;
+    }
+    .search-header {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .clickMeOne {
+        width: 38%;
+        height: 50%;
+    }
+    .clickMe {
+        width: 44%;
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header {
+        font-size: 2.5rem;
+        padding-top: 8%;
+    }
+    header {
+        padding-top: 15%;
+        margin-top: 17%;
+    }
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+    td {
+        width: 100%;
+    }
+    table {
+        height: 10%;
+    }
+    .body-box {
+        width: 100%;
+        height: 110%;
+        float: left;
+        background-color: white;
+    }
+    .data-table {
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .unique {
+        width: 100%;
+    }
+    .my-checkbox {
+        display: block;
+        width: 36%;
+        height: 34px;
+        font-size: 14px;
+        color: #555;
+        background-color: #FFF;
+        border: 1px solid #ccc;
+        box-shadow: inset 0 1px rgba(0, 0, 0, 0.075);
+    }
+    .search-header {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .clickMeOne {
+        width: 47%;
+        height: 50%;
+    }
+    .clickMe {
+        width: 46%;
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    header {
+        padding-top: 5%;
+        margin-top: 10%;
+    }
+    header {
+        font-size: 3rem;
+        padding-top: 15%;
+        width: 120%;
+        font-size: 25px;
+        margin-top: 15%;
+    }
+    table, thead, tbody, th, td, tr {
+        display: inline;
+    }
+    td {
+        width: 100%;
+    }
+    table {
+        height: 10%;
+    }
+    .body-box {
+        width: 120%;
+        height: 110%;
+        float: left;
+        background-color: white;
+    }
+    .data-table {
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .unique {
+        width: 100%;
+    }
+    .my-checkbox {
+        display: block;
+        width: 36%;
+        height: 34px;
+        font-size: 14px;
+        color: #555;
+        background-color: #FFF;
+        border: 1px solid #ccc;
+        box-shadow: inset 0 1px rgba(0, 0, 0, 0.075);
+    }
+    .search-header {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #data-box {
+        margin-left: 5%;
+        margin-right: 0;
+    }
+    .search-button {
+        margin-left: 0px;
+        margin-top: 0%;
+    }
+    .clickMeOne {
+        width: 50%;
+        height: 50%;
+    }
+    .clickMe {
+        width: 47%;
+        height: 50%;
+    }
+}

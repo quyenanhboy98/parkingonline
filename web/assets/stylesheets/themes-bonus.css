@@ -1,0 +1,15 @@
+#loadSite {
+    width: 105%;
+    height: 100vh;
+    float: left;
+}
+
+@media only screen and (max-width: 1300px) {
+    #loadSite {
+        width: 110%;
+    }
+}
+
+.container {
+    overflow: hidden;
+}

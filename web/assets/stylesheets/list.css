@@ -1,0 +1,25 @@
+td {
+    width: 120px;
+}
+
+.tag-a {
+    text-decoration: none;
+}
+
+.tag-a:hover {
+    text-decoration: none;
+    color: #d35400;
+}
+#text-unique {
+    text-decoration: none;
+    color: white;
+}
+.tag-a:active {
+    color: #d35400;
+    text-decoration: none;
+}
+
+a:focus {
+    color: #d35400;
+    text-decoration: none;
+}
